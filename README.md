@@ -4,55 +4,42 @@
 该项作为模板目用于让初学者进行参考，代码中均给出了关键部分的注释。
 
 项目结构
-
-├── mymodel.py        # 模型定义（AlexNet）
-├── mydatasets.py     # 数据集加载类
-├── train.py          # 模型训练脚本
-├── val.py            # 模型验证脚本
-├── demo.py           # 模型推理脚本
-└── README.md         # 项目说明文件
+<br>
+├── mymodel.py        # 模型定义（AlexNet）<br>
+├── mydatasets.py     # 数据集加载类<br>
+├── train.py          # 模型训练脚本<br>
+├── val.py            # 模型验证脚本<br>
+├── demo.py           # 模型推理脚本<br>
+└── README.md         # 项目说明文件<br>
 
 依赖项
 
-在运行该项目之前，请确保已安装以下依赖项：
-
-- Python 3.x
-- PyTorch
-- torchvision
-- tqdm
-- scikit-learn
-- Pillow
-- seaborn
-- matplotlib
-
-你可以使用 requirements.txt 或手动安装依赖项：
-
-pip install torch torchvision tqdm scikit-learn pillow seaborn matplotlib
+在运行该项目之前，请确保已安装依赖项：
 
 数据集准备
 
 项目使用的是二分类数据集（猫和狗）。请将数据集按照以下结构组织：
 
-data_set/
-    └── catsdogs/
-        ├── train/
-        │   ├── Cat/
-        │   │   ├── img1.jpg
-        │   │   ├── img2.jpg
-        │   │   └── ...
-        │   └── Dog/
-        │       ├── img1.jpg
-        │       ├── img2.jpg
-        │       └── ...
-        └── val/
-            ├── Cat/
-            │   ├── img1.jpg
-            │   ├── img2.jpg
-            │   └── ...
-            └── Dog/
-                ├── img1.jpg
-                ├── img2.jpg
-                └── ...
+data_set/<br>
+    └── catsdogs/<br>
+        ├── train/<br>
+        │   ├── Cat/<br>
+        │   │   ├── img1.jpg<br>
+        │   │   ├── img2.jpg<br>
+        │   │   └── ...<br>
+        │   └── Dog/<br>
+        │       ├── img1.jpg<br>
+        │       ├── img2.jpg<br>
+        │       └── ...<br>
+        └── val/<br>
+            ├── Cat/<br>
+            │   ├── img1.jpg<br>
+            │   ├── img2.jpg<br>
+            │   └── ...<br>
+            └── Dog/<br>
+                ├── img1.jpg<br>
+                ├── img2.jpg<br>
+                └── ...<br>
 
 使用说明
 
